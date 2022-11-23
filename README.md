@@ -1,9 +1,6 @@
 # RuCode6.0
 
-Tasks solutions of rucode 6.0 festival
-
 Results short description
-| Task                       |Type | Metric        | Value | Place |
+| Task                       |Type | Metric        | Value (public/private) | Place |
 | -------------              |:---: |:-------------:|:-----:|:-----:|
-| Vehicle Color Determination| CV  | f1 macro      | ???   | ???   |
-| Error correction           | NLP | accuracy      | ???   | ???   |
+| Vehicle Color Determination| CV  | f1 macro      |  0.9868 /   | ???   |
