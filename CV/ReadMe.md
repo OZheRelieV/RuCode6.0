@@ -4,7 +4,7 @@
 Подробнее можно посмотреть в ноутбуке augmentation.ipynb
 
 ## Обучение модели
-Дообучена resnet34 20 эпох на V100 1 час 30 минут. 
+Дообучена resnet34 на 20 эпохах на V100 (1 час 30 минут). 
 
 ## Датасет веса, файлы аннотаций
 Файлы находятся [здесь](https://drive.google.com/drive/folders/16dJ38ke-tRP9o5-JiVaUqfr1cxxUAFvk?usp=sharing).
@@ -32,5 +32,6 @@ src.module на module:
 - import src.model_fitting as model_fitting -> import model_fitting
 - from src.processing import * -> from processing import *
 
-Для формирования сабмита, запустите fitting.ipynb, для валидации сети на данных - validation.ipynb.  
+Для формирования сабмита, запустите fitting_resnet34.ipynb.  
+validation.ipynb представляет собой решение на базе топологии resnet18, которая обучалась на 3050ti laptop 4Gb на 10 эпохах. Применение данной топологии не сильно проигрывает в качестве относительно resnet34. У resnet34 скор - 0.9896, а у resnet18 - 0.9868.  
 EDA.ipynb - максимально краткий EDA анализ исходных данных.
